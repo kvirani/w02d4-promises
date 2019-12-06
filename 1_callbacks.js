@@ -4,7 +4,7 @@ let finalDoc = [];
 
 const done = function (finalResults) {
   console.log('ALL DONE');
-  console.log(finalResults.toString().replace(/,/g, "\n"));
+  console.log(finalResults.join('\n'));
 }
 
 fs.readFile("data/p1.txt", "utf8", (err, data) => {
