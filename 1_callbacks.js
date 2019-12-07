@@ -29,8 +29,8 @@ fs.readFile("data/p1.txt", "utf8", (err, data) => {
         }
         finalDoc.push(data);
         done(finalDoc);
-      })
-    })
-  })
+      });
+    });
+  });
 });
 
