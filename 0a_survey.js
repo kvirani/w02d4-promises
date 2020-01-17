@@ -21,7 +21,7 @@ rl.question('what is your name?', (one) => {
           rl.question('which sport is your fav? ', (six) => {
                 
             rl.question('what is your superpower? in a few words, tell us what you are amazing at! ', (seven) => {
-              console.log(`The survey persons name is ${one} and that person likes to ${two}, and likes listening to ${three} while doing sports. The persons favourite meal is ${four} and loves eating ${five} for that meal. The persons absolute favourite thing to eat is ${six}, and the persons superpower is ${seven}.`)                  
+              console.log(`The survey persons name is ${one} and that person likes to ${two}, and likes listening to ${three} while doing sports. The persons favourite meal is ${four} and loves eating ${five} for that meal. The persons absolute favourite sport is ${six}, and the persons superpower is ${seven}.`)                  
               rl.close();    
             });
           });
